@@ -5,7 +5,7 @@ Pipeline para generar visualizaciones 3D de inspección de muros de embalse. Tom
 El proyecto es para el embalse Las Tórtolas (Chile). Tiene tres muros: Principal, Oeste y Este.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/9ab1ab62-8a5f-4c02-b902-7e31f220aa9f" width="100%" />
+  <img src="assets/hero-render-muro.gif" width="100%" />
 </p>
 
 
@@ -22,8 +22,6 @@ El proyecto es para el embalse Las Tórtolas (Chile). Tiene tres muros: Principa
 4. **Agrega labels de texto 3D** con el valor numérico encima de cada esfera.
 5. **Anima una cámara** recorriendo el muro siguiendo un path definido en DXF.
 6. **Renderiza el video** con un HUD overlay (logo, título).
-
-[imagen: comparación eje del muro con PKs marcados en QGIS vs esferas en Blender — misma posición]
 
 ---
 
@@ -48,7 +46,7 @@ En Blender, la posición Z de cada esfera no viene de ningún archivo — se obt
 CRS: **EPSG:32719** (WGS84 UTM Zona 19S)
 
 
-![unnamed (1)](https://github.com/user-attachments/assets/f599c296-ac5d-4807-801c-25d20a0cae2d)
+![unnamed (1)](assets/como-funciona.jpg)
 
 ---
 
@@ -85,7 +83,7 @@ output/
 ```
 
 
-![wmremove-transformed](https://github.com/user-attachments/assets/90138be5-fe9b-4974-adc4-154e79c7311d)
+![wmremove-transformed](assets/frame-video-hud.jpeg)
 
 
 ---
@@ -106,8 +104,6 @@ output/
 | Muro Principal | Recto | 1434 m | cada 20 m |
 | Muro Oeste | Curvo | 689 m | 36 estaciones explícitas |
 | Muro Este | Recto | ~550 m | cada 20 m |
-
-[imagen: vista aérea del embalse con los tres muros identificados]
 
 ---
 
